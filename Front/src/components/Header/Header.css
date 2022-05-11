@@ -1,0 +1,114 @@
+.navMenu {
+  margin: 20px 0;
+}
+
+.collapse {
+  height: 3rem;
+}
+
+.imgLink img {
+  width: 350px;
+  height: 100%;
+}
+
+.ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+.ul li a {
+  color: black;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+}
+
+.active_a {
+  color: red;
+}
+
+.navMenuRight {
+  margin: 20px 0;
+  width: 20%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.navMenuRight a {
+  text-decoration: none;
+  border: 1px solid red;
+  padding: 5px 30px;
+  border-radius: 50px;
+  color: red;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.bg-light {
+  padding: 10px 20px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 0 15px;
+  font-weight: 700;
+  width: 110px;
+}
+
+/*.nav-link {*/
+/*  color: #000 !important;*/
+/*}*/
+.nav-link:hover {
+  color: #d21e2b !important;
+}
+.active {
+  color: #d21e2b !important;
+}
+
+
+/*.navbar-nav {*/
+/*  padding-left: 0px !important;*/
+/*}*/
+
+/*.navbar-toggler {*/
+/*  border: none !important;*/
+/*  outline: none !important;*/
+/*}*/
+
+/*.navbar-toggler:focus {*/
+/*  border: none !important;*/
+/*  outline: none !important;*/
+/*}*/
+
+
+
+/*.navbar-light .navbar-toggler {*/
+/*  color: rgb(163 20 20 / 0%);*/
+/*}*/
+
+@media screen and (max-width: 991px) {
+  .navMenuRight {
+    width: 50%;
+    position: absolute;
+    right: 50px;
+    margin: 20px 0;
+  }
+
+  .collapse {
+    margin-bottom: 12rem;
+  }
+
+}
+  @media screen and (max-width: 991px) {
+    .collapse {
+      margin-bottom: 12rem;
+    }
+
+    .navMenuRight {
+      display: block;
+      margin-bottom: 10rem;
+      margin-right: 1rem;
+    }
+  }

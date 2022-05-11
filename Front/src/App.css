@@ -1,0 +1,40 @@
+.links a {
+    color: black !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 18px !important;
+    line-height: 25px !important;
+}
+
+.signIn {
+    color: black !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 18px !important;
+    line-height: 25px !important;
+}
+
+.links {
+    margin-left: 3rem !important;
+}
+
+.signUp {
+    background: #d21e2b !important;
+    border-radius: 30px !important;
+    padding: 5px 25px !important;
+    color: #FFFFFF !important;
+}
+
+.signUp span:hover {
+    color: black !important;
+}
+
+.div {
+    align-items: center !important;
+}
+
+@media only screen and (max-width: 980px) {
+    .links {
+        margin-left: 0 !important;
+    }
+}

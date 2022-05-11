@@ -1,0 +1,176 @@
+ul {
+    list-style-type: none;
+ }
+.mt50{
+    margin-top: 50px;
+}
+
+.footerby h6 li {
+    list-style-type: none;
+}
+
+.footerBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #f1f1f1;
+    padding: 20px 0;
+}
+
+.footerLogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 60px;
+    margin-bottom: 10px;
+}
+
+.footerSocial li a {
+    color: #D21E2B;
+    font-size: 22px;
+    border-radius: 50%;
+}
+
+.footerMenu {
+    margin: 1rem 0;
+}
+
+.navFooter {
+    color: #555555;
+    font-weight: 500;
+    padding: 0 15px;
+}
+
+.footerSocial ul{
+    display: flex;
+}
+.footerSocial ul li{
+    margin-left: 30px;
+    color: #d21e2b;
+}
+
+.footerMenu ul{
+    display: flex;
+}
+.footerMenu ul li{
+    margin-left: 20px;
+    color: #333;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.navFooter {
+    font-size: 22px;
+}
+
+@media screen and (max-width: 770px) {
+    .footerMenu ul li{
+        margin-left: 7px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .footerMenu ul li{
+        margin-left: 7px;
+    }
+
+    .navFooter {
+        font-size: 10px;
+    }
+  }
+
+  
+
+.footerMenu ul {
+    padding-right: 2rem !important;
+}
+
+.footerSocial ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 3rem;
+}
+
+.footerLogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     margin-left: 0;
+    margin-bottom: 10px;
+}
+
+.homeContact {
+    margin-top: 80px;
+    position: relative;
+    width: 100%;
+}
+
+.formBox form {
+    display: inline-block;
+    flex-direction: column;
+    border: none;
+    outline: none;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.formBox form input {
+    display: block;
+    background: #FEFEFE;
+    box-shadow: inset 3px 8px 20px rgb(0 0 0 / 10%);
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 5px 10px;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.formBox textarea {
+    display: block;
+    background: #FEFEFE;
+    box-shadow: inset 3px 8px 20px rgb(0 0 0 / 10%);
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    height: 100px;
+}
+
+.footerMenu ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+  .footerby{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-left: 0;
+  }
+.navFooter {
+    color: #555555;
+    font-weight: 500;
+    padding: 0 5px;
+}
+
+
+.footerby h6{
+    color: #555;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+.footerby h6 a{
+    color: #d21e2b;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.4;
+    margin-left: 15px;
+}
